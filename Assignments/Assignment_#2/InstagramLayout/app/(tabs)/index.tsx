@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
   titleContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 8,
+    gap: Platform.select({ios: 8, android: 4, web: 8}),
   },
   stepContainer: {
     gap: 8,
