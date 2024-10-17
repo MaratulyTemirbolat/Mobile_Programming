@@ -1,4 +1,3 @@
-// app/_layout.tsx
 import { Tabs } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -51,7 +50,7 @@ export default function RootLayout() {
       <Tabs.Screen
         name="profile/index"
         options={{
-          title: 'Profile',
+          title: 'Select Profile',
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="person-outline" color={color} size={size} />
           ),
@@ -60,6 +59,7 @@ export default function RootLayout() {
       <Tabs.Screen
         name="profile/[userId]"
         options={{
+          title: "User's Profile",
           href: null,
         }}
       />

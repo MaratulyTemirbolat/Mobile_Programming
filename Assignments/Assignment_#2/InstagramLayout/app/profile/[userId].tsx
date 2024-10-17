@@ -1,8 +1,7 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet, FlatList, Dimensions } from 'react-native';
-import { useRouter, useLocalSearchParams } from 'expo-router';
+import { useLocalSearchParams } from 'expo-router';
 import { users, posts } from '@/constants/testdata';
-import { Post } from '@/models/models';
 
 export default function UserProfilePage() {
   const { userId } = useLocalSearchParams<{ userId: string }>();
