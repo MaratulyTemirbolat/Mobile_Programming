@@ -7,6 +7,10 @@ export default function Home() {
       <Text>Welcome to the Database App</Text>
       <Link href="/user-list">View Users</Link>
       <Link href="/add-user">Add User</Link>
+
+      <Text>Welcome to the API User Management App</Text>
+      <Link href="/api-user-list">View API Users</Link>
+      <Link href="/api-user-create">Create API User</Link>
     </View>
   );
 }

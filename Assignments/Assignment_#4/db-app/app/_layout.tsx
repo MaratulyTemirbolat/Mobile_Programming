@@ -12,6 +12,8 @@ export default function Layout() {
       <Stack.Screen name="index" options={{ title: "Home" }} />
       <Stack.Screen name="user-list" options={{ title: "User List" }} />
       <Stack.Screen name="add-user" options={{ title: "Add User" }} />
+      <Stack.Screen name="api-user-list" options={{ title: "API User List" }} />
+      <Stack.Screen name="api-user-create" options={{ title: "Create API User" }} />
     </Stack>
   );
 }
